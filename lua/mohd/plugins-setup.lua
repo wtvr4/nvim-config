@@ -104,6 +104,8 @@ return packer.startup(function(use)
 	--git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
+	-- github copilot
+	use("github/copilot.vim")
 	if packet_bootstrap then
 		require("packer").sync()
 	end
