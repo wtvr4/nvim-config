@@ -30,6 +30,7 @@ treesitter.setup({
 		"gitignore",
 		"java",
 		"python",
+		"c",
 	},
 	-- auto install above language parsers
 	auto_install = true,

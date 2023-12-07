@@ -26,6 +26,7 @@ mason_lspconfig.setup({
 		"zk", --markdown
 		"pyre", -- python
 		"jdtls", -- java
+		"clangd", -- c
 	},
 })
 
