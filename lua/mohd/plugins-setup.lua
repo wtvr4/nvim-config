@@ -38,6 +38,7 @@ return packer.startup(function(use)
 	-- other colorschemes
 	use("sainnhe/everforest")
 	use("romgrk/github-light.vim")
+	use("catppuccin/nvim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
