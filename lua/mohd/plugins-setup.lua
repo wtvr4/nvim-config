@@ -39,6 +39,7 @@ return packer.startup(function(use)
 	use("sainnhe/everforest")
 	use("romgrk/github-light.vim")
 	use("catppuccin/nvim")
+	use("EdenEast/nightfox.nvim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
@@ -105,6 +106,8 @@ return packer.startup(function(use)
 	--git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
+	-- swift lsp
+	use("chrishannah/nvim-config")
 	-- github copilot
 	use("github/copilot.vim")
 	if packet_bootstrap then
