@@ -40,6 +40,7 @@ return packer.startup(function(use)
 	use("romgrk/github-light.vim")
 	use("catppuccin/nvim")
 	use("EdenEast/nightfox.nvim")
+	use("aktersnurra/no-clown-fiesta.nvim")
 
 	use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
